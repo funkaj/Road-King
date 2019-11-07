@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "name": "Space Shooter",
+    "startText": "Starts",
+    "gameoverText": "Game Over",
+    "instructionsMobile": "Touch left and right from Player",
+    "instructionsMobile2": "to navigate and auto-shoot",
+    "instructionsDesktop": "Use WASD to navigate and SPACE to shoot",
+    "spawnspeed": 1000,
+    "minshootspeed": 600,
+    "maxshootspeed": 1200,
+    "minenemyspeed": 50,
+    "maxenemyspeed": 140,
+    "textfont": "monospace"
+  },
+  "@@editor": [
+    {
+      "key": "settings",
+      "name": "Game settings",
+      "icon": "🎮",
+      "source": "settings.json",
+      "fields": [
+        {
+          "key": "name",
+          "name": "App name",
+          "type": "text"
+        },
+        {
+          "key": "gameoverText",
+          "name": "Text to show when game over",
+          "type": "text"
+        },
+        {
+          "key": "instructionsMobile",
+          "name": "How to play the game on mobile",
+          "type": "text"
+        },
+        {
+          "key": "instructionsMobile2",
+          "name": "How to play the game on mobile",
+          "type": "text"
+        },
+        {
+          "key": "instructionsDesktop",
+          "name": "How to play the game on desktop",
+          "type": "text"
+        },
+        {
+          "key": "spawnspeed",
+          "name": "Enemy Spawn Speed",
+          "description": "Lesser value = faster spawn and more enemies, base = 1000",
+          "type": "text"
+        },
+        {
+          "key": "minshootspeed",
+          "name": "Minimum enemy's shooting speed",
+          "description": "A minimum possible shooting speed for enemis. base = 600",
+          "type": "text"
+        },
+        {
+          "key": "maxshootspeed",
+          "name": "Maximum enemy's shooting speed",
+          "description": "A maximum possible shooting speed for enemis. base = 1200",
+          "type": "text"
+        },
+        {
+          "key": "minenemyspeed",
+          "name": "Maximum enemy's speed",
+          "description": "A maximum possible speed for enemis. base = 50",
+          "type": "text"
+        },
+        {
+          "key": "maxenemyspeed",
+          "name": "Maximum enemy's speed",
+          "description": "A maximum possible speed for enemis. base = 140",
+          "type": "text"
+        },
+        {
+          "key": "textfont",
+          "name": "Text fonts",
+          "description": "Text fonts for the game",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "images": {
+    "mouse": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/DurrrSpaceShip.png",
+    "background": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/0325b90e635f48c6889256f73fd693d5.png",
+    "enemy1": "https://images.koji-cdn.com/0be5bf3b-d017-4b27-91f3-5a97e6a91421/f30571ab8673409da3961e87f86c297e.png",
+    "playerlaser": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/sprLaserPlayer.png",
+    "enemylaser": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/sprLaserEnemy0.png",
+    "btnplay": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/sprBtnPlay.png",
+    "btnplayHover": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/sprBtnPlayHover.png",
+    "btnrestart": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/sprBtnRestartHover.png",
+    "btnrestartHover": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/sprBtnRestart.png",
+    "soundon": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/24pxsoundon.png",
+    "soundoff": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/24pxsoundoff.png",
+    "mcontr": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/whitebox.png",
+    "mcontrvert": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/tilevert.png",
+    "mcontrhori": "https://images.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/tilehori.png"
+  },
+  "@@editor": [
+    {
+      "key": "images",
+      "name": "Images",
+      "icon": "🖼️",
+      "source": "images.json",
+      "fields": [
+        {
+          "key": "mouse",
+          "name": "Player Icon",
+          "description": "Main player icon ",
+          "type": "image"
+        },
+        {
+          "key": "background",
+          "name": "Background",
+          "description": "Background of the game",
+          "type": "image"
+        },
+        {
+          "key": "enemy1",
+          "name": "enemy",
+          "description": "Enemy in the game",
+          "type": "image"
+        },
+        {
+          "key": "enemylaser",
+          "name": "enemylaser",
+          "description": "Enemy's laser icon that is used in the game",
+          "type": "image"
+        },
+        {
+          "key": "playerlaser",
+          "name": "playerlaser",
+          "description": "Plyer's laser icon that used in the game",
+          "type": "image"
+        },
+        {
+          "key": "btnplay",
+          "name": "Play Button",
+          "description": "Button to start the game",
+          "type": "image"
+        },
+        {
+          "key": "btnplayHover",
+          "name": "Hoover efect over the start button",
+          "description": "Hoover effect on the Start button",
+          "type": "image"
+        },
+        {
+          "key": "btnrestart",
+          "name": "Restart Button",
+          "description": "Button to restart the game",
+          "type": "image"
+        },
+        {
+          "key": "btnrestartHover",
+          "name": "Hoover efect over the restart button",
+          "description": "Hoover effect on the restart button",
+          "type": "image"
+        },
+        {
+          "key": "soundon",
+          "name": "Sound on",
+          "description": "Button for sound on",
+          "type": "image"
+        },
+        {
+          "key": "soundoff",
+          "name": "Sound off",
+          "description": "Button for sound off",
+          "type": "image"
+        },
+        {
+          "key": "mcontr",
+          "name": "Mobile Controller Shooting Area",
+          "description": "Controller for Mobile Shooting. Base: transparent",
+          "type": "image"
+        },
+        {
+          "key": "mcontrvert",
+          "name": "Mobile Controller Vertical",
+          "description": "Controller for Mobile vertical areas (up und down). Base: transparent",
+          "type": "image"
+        },
+        {
+          "key": "mcontrhori",
+          "name": "Mobile Controller Horizontal",
+          "description": "Controller for Mobile horizontal area (left and right). Base: transparent",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

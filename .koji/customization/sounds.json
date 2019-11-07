@@ -1,0 +1,21 @@
+{
+  "sounds": {
+    "backgroundMusic": "https://objects.koji-cdn.com/ad809248-3fdf-458b-b6e3-aafe6c220141/475237erokiaambientpianoloop435bassyloudunknownbpmonlineaudioconverter.com.mp3"
+  },
+  "@@editor": [
+    {
+      "key": "sounds",
+      "name": "Sounds",
+      "icon": "🔊️",
+      "source": "sounds.json",
+      "fields": [
+        {
+          "key": "backgroundMusic",
+          "name": "Background Music",
+          "description": "Music to loop in background",
+          "type": "sound"
+        }
+      ]
+    }
+  ]
+}
